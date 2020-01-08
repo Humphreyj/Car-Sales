@@ -1,3 +1,7 @@
 export const purchase = (feature) => {
     return {type:'ADD_FEATURE', payload: feature};
 }
+
+export const remove = (feature) => {
+    return { type: 'REMOVE_FEATURE', payload: feature};
+}
